@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.home-bg {
+  background: url('/src/assets/rectangle-1.png');
+  background-position: center;
+  background-size: cover;
+}
+/* .home-bg {
+  height: 100%;
+  width: 100%;
+  background: #000000b3;
+} */
+
+.home-overlay{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.70);
+    min-height: 100vh;
+}
